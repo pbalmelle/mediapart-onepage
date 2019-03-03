@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "Mediapart Onepage",
+  "version": "1.0",
+
+  "description": "ALways display Mediapart.fr articles on one page",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+    "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://www.mediapart.fr/*"
+  ],
+
+  "background": {
+    "scripts": ["onepage.js"]
+  }
+
+}
